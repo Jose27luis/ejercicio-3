@@ -1,4 +1,21 @@
 {
+  "name": "seguridad-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cd seguridad && npm run dev",
+    "build": "cd seguridad && npm run build",
+    "lint": "cd seguridad && npm run lint",
+    "preview": "cd seguridad && npm run preview",
+    "test": "cd seguridad && npm run test",
+    "test:coverage": "cd seguridad && npm run test:coverage",
+    "test:ui": "cd seguridad && npm run test:ui",
+    "format": "cd seguridad && npm run format",
+    "format:check": "cd seguridad && npm run format:check",
+    "type-check": "cd seguridad && npm run type-check",
+    "install:all": "npm install && cd seguridad && npm install",
+    "postinstall": "cd seguridad && npm install"
+  },
   "dependencies": {
     "vite": "^7.2.7"
   }
